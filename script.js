@@ -77,7 +77,7 @@ function displayWeather(currentWeather) {
     status.textContent = currentWeather.mainWeather;
     displayDiv.appendChild(status);
     const cityTemp = document.createElement("p");
-    cityTemp.textContent = currentWeather.temp + " Degrees";
+    cityTemp.textContent = currentWeather.temp + " Degrees Fahrenheit";
     displayDiv.appendChild(cityTemp);
     const cityHumidity = document.createElement("p");
     cityHumidity.textContent = currentWeather.humidity + " Humidity";
